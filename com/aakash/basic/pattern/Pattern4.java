@@ -13,8 +13,8 @@ public class Pattern4
              move to the next row and give a line break */
             System.out.println();
         }
-
     }
+
 
     public static void main(String[] args) {
         int N = 5;
