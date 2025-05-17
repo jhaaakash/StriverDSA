@@ -7,7 +7,6 @@ public class Pattern14
 
         for (int i = 0; i < n; i++) {
 
-            char first = 'A';
 
             for (char ch = 'A'; ch <= 'A' + i; ch++) {
 
