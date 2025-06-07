@@ -19,7 +19,7 @@ public class ThreeSumOptimal {
             // Skip duplicates
             if (i > 0 && nums[i] == nums[i - 1]) continue;
 
-            // Two pointers approach
+
             int j = i + 1;
             int k = n - 1;
 
