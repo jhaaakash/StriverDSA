@@ -1,28 +1,25 @@
 package com.aakash.advance.arrays.faq_medium;
 
-public class KadaneAlgorithmBrute {
+public class KadaneAlgorithmBetter {
     public int maxSubArray(int[] nums) {
-        int max=Integer.MIN_VALUE;
+        int max= Integer.MIN_VALUE;
         for(int i=0; i<nums.length; i++)
-        {
+        {    int sum=0;
             for(int j=i; j<nums.length; j++)
             {
-                int sum=0;
-                for(int k=i; k<=j; k++)
-                {
-                    sum= sum+nums[k];
-                }
-                max= Math.max(max,sum);
+                sum=sum+nums[j];
+                max= Math.max(sum, max);
             }
         }
         return max;
     }
 
+
     public static void main(String[] args) {
         int[] arr = { -2, 1, -3, 4, -1, 2, 1, -5, 4};
 
         // Create an instance of Solution class
-        KadaneAlgorithmBrute sol = new KadaneAlgorithmBrute();
+        KadaneAlgorithmBetter sol = new KadaneAlgorithmBetter();
 
         int maxSum = sol.maxSubArray(arr);
 
