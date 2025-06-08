@@ -12,7 +12,7 @@ public class KadaneAlgorithmOptimal {
             sum=sum+nums[i];
             // Update maxi if current sum is greater
             if (sum > max) {
-                max = sum;
+                max = sum ;
             }
             if(sum<0)
             {
