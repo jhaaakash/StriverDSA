@@ -1,6 +1,6 @@
 package com.aakash.advance.arrays.faq_medium;
 
-public class KadaneAlgorithm {
+public class KadaneAlgorithmBrute {
     public int maxSubArray(int[] nums) {
     int max=0;
     for(int i=0; i<nums.length; i++)
@@ -22,7 +22,7 @@ public class KadaneAlgorithm {
         int[] arr = { -2, 1, -3, 4, -1, 2, 1, -5, 4};
 
         // Create an instance of Solution class
-        KadaneAlgorithm sol = new KadaneAlgorithm();
+        KadaneAlgorithmBrute sol = new KadaneAlgorithmBrute();
 
         int maxSum = sol.maxSubArray(arr);
 
