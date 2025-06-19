@@ -1,5 +1,7 @@
 package com.aakash.advance.hashing;
 
+import java.sql.SQLOutput;
+
 public class LongestConsecutive {
 
     private boolean linearSearch(int[] a, int num)
@@ -45,6 +47,7 @@ public class LongestConsecutive {
 
         // Function call for longest consecutive sequence
         int ans = solution.longestConsecutive(a);
+        System.out.println("The longest consecutive sequence is " + ans);
         System.out.println("The longest consecutive sequence is " + ans);
     }
 }
