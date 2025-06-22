@@ -25,6 +25,7 @@ public class SubArraysWithXorKBetter {
         SubArraysWithXorKBetter solution = new SubArraysWithXorKBetter();
         // Function call to get the result
         int ans = solution.subarraysWithXorK(a, k);
+        System.out.println();
         System.out.println("The number of subarrays with XOR k is: " + ans);
     }
 }
